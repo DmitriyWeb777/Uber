@@ -1,0 +1,226 @@
+                                                                                /* НАВИГАЦИОННОЕ МЕНЮ */
+
+header {
+    position: relative; 
+}                                                                       
+header nav { /* Отступы тела меню внутри поля */
+    min-height: 51px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.menu { /* Стилизация меню */
+    padding: 10px 70px 10px 71px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /* Убираю поле снизу после Reboot */
+    list-style-type: none; /* Убираю точки у списков меню */
+    line-height: 31px; 
+}
+.menu .menu_link {  /* Стилизация пунктов меню */
+    font-family: 'Roboto Regular';
+    font-size: 15px;
+    color: #ffffff;
+}
+.menu .menu_item {  /* Делаю перегородки между пунктами меню */
+    border-right: 2px dotted #000;
+    padding-right: 26px;
+}
+
+                                                                            /* ПОЛЕ "ЗАКАЗАТЬ ЗВОНОК" */
+
+.subheader {
+    min-height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 16px 0 17px 0;
+    position: absolute; /* Для наложения полей */
+    width: 100%;
+    z-index: 2;
+    margin-top: 51px;
+}
+.subheader .subheader_logo {
+    max-width: 100%;  /* Если вдруг доготип изменится */
+}
+.subheader .logo_txt {
+    opacity: 0.5;
+    font-family: 'Roboto Thin';
+    font-size: 13px;   
+    line-height: 13px;    
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+}
+.subheader .col_2 {
+    width: 158px;
+    margin-left: 300px;
+    padding: 0;
+}
+.subheader .subheader_call {
+    font-family: 'Roboto Light';
+    font-size: 12px;
+    line-height: 11px;
+    color: #ffffff;
+    margin-top: 7px;
+    text-align: right;
+}
+.subheader .subheader_number {
+    font-family: 'Roboto Regular';
+    font-size: 22px;
+    line-height: 16px;
+    color: #ffffff;
+    display: block;
+    margin-top: 8px;
+}
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 3px rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    margin-top: 3px;
+    margin-left: 33px;
+    padding: 0;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-family: 'Roboto Regular';
+    font-size: 14px;    
+    line-height: 10px;    
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+                                                                                /* КОМПАНИЯ UBER PARTNERS */
+
+.header {
+    min-height: 748px;
+    mix-blend-mode: multiply;
+    background: url('../img/bg/bg_head.jpg') center center/cover no-repeat;
+    /* position: relative;
+    top: -84px;
+    z-index: -1; */
+    z-index: 1;
+    padding: 151px 0 135px 0;
+}
+.header .header_h1 {
+    font-family: 'Roboto Black';
+    font-size: 60px;    
+    line-height: 60px;    
+    text-align: center;
+    color: #ffffff;
+}
+.header .header_h2 {
+    font-family: 'Roboto Bold';
+    font-size: 36px;    
+    line-height: 36px;    
+    text-align: center;
+    color: #ffffff;
+    margin-top: 8px;
+}
+.header .header_txt1 {
+    width: 955px;
+    font-family: 'Roboto Regular';
+    font-size: 18px;    
+    line-height: 1.33;    
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.header .header_txt2 {
+    width: 955px;
+    font-family: 'Roboto Regular';
+    font-size: 18px;    
+    line-height: 1.33;    
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.header .header_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 3px rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 115px;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-family: 'Roboto Regular';
+    font-size: 18px; 
+    text-align: center;
+    color: #ffffff;
+}
+
+                                                                        /* ПРИЧИНЫ НАЧАТЬ РАБОТАТЬ */
+
+.reason {
+    min-height: 900px;
+    padding: 71px 0 3px 0;
+}   
+.reason .advantages {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+    font-family: 'Roboto Thin';
+    font-size: 11px;    
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    text-transform: uppercase;
+}    
+.reason .reason_head {
+    font-family: 'Roboto Bold';
+    font-size: 38px;    
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 38px;
+    margin-bottom: 0;
+}   
+.reason .row {
+    margin-top: 40px;
+    padding: 0 43px 0 35px;
+}                                                              
+.reason .col_reason_left {
+    width: 479px;
+}
+.reason .col_reason_right {
+    width: 479px;
+    margin-left: 102px;    
+}
+.reason .reason_wrapper {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+.reason .reason_wrapper .reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 57px;
+    margin-top: 10px;
+}
+.reason .reason_wrapper .reason_descr {
+    width: 342px;
+    font-family: 'Roboto Light';
+    font-size: 15px;    
+    line-height: 1.4;    
+    text-align: justify;
+    color: #202020;
+}
+.reason .reason_wrapper .reason_span {
+    font-family: 'Roboto Regular';
+    font-size: 17px;    
+    color: #1eacc7;
+    text-align: left;
+}

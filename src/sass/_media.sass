@@ -1,0 +1,424 @@
+@media screen and (max-width: 1200px)
+    .menu
+        .menu_link
+            font-size: 13px
+        .menu_item
+            padding-right: 14px
+    .subheader
+        // width: 100%
+        .col_2
+            margin-left: 250px
+    .header
+        .header_h1
+            font-size: 50px
+        .header_h2
+            font-size: 31px
+    .reason
+        .row
+            padding: 0 20px 0 20px
+        .col_reason_left
+            width: 430px
+        .col_reason_right
+            width: 430px
+            margin-left: 50px
+        .reason_wrapper
+            height: 195px
+            margin-bottom: 15px
+            .reason_descr
+                width: 300px
+    .mobile
+        &_item
+            width: 290px
+    .world
+        height: 480px
+        .link
+            margin-top: 210px
+    .condition
+        .row
+            .col_condition            
+                &_left
+                    margin-left: 10px
+                    width: 450px
+                &_right
+                    margin-left: 30px
+                    width: 450px
+    .footer
+        padding-left: 10px
+        padding-right: 10px
+        &_link
+            &_large
+                width: 300px
+            &_small
+                width: 330px
+
+@media screen and (max-width: 991px)
+    .menu
+        .menu_link
+            font-size: 10px
+        .menu_item
+            padding-right: 8px
+    .subheader
+        .row
+            .col-md-3 
+                margin-left: 0
+                .subheader_logo
+                    img
+                        width: 100%
+                .logo_txt
+                    font-size: 10px
+            .col_2
+                margin-left: 150px
+            .col_3
+                .subheader_btn
+                    height: 40px
+                    margin-top: 6px
+    .header
+        .header_h1
+            font-size: 40px
+        .header_h2
+            font-size: 25px
+        .header_txt1, .header_txt2
+            font-size: 15px
+    .reason
+        .reason_head
+            font-size: 30px
+        .row
+        .col_reason_left
+            width: 330px
+        .col_reason_right
+            width: 330px
+            margin-left: 20px
+        .reason_wrapper
+            flex-direction: column
+            justify-content: start
+            align-items: center
+            height: 325px
+            .reason_descr
+                margin-top: 10px
+    .mobile
+        min-height: 740px
+        .title
+            font-size: 30px
+        &_item
+            width: 220px
+            height: 200px
+            padding-top: 55px            
+            .momile_item_subtitle
+                font-size: 16px            
+    .condition
+        .row
+            .col_condition
+                margin-left: 0
+                width: 50%
+                &_right
+    .world
+        height: 365px
+        .link
+            margin-top: 130px
+    .footer
+        flex-direction: column
+        &_social
+            order: 2
+            padding-right: 0
+            margin: 10px auto 0 auto
+            width: 155px
+        &_link
+            order: 1
+        &_application
+            order: 3
+            margin: 10px auto 0 auto
+
+@media screen and (max-width: 767px)
+    header                        
+        .menu        
+            padding: 20px 15px
+            flex-direction: column
+            position: fixed
+            z-index: 3
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100vh
+            background-color: rgba(0,0,0,.8)
+            transition: 0.6s all
+            &_active
+                left: 0
+            .menu_item
+                border: none
+                padding-right: 0
+            .menu_link
+                font-size: 20px        
+        .humburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            width: 30px
+            height: 12px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-top: 3px
+                transition: 0.5s all
+                &:first-child
+                    margin-top: 0
+            &_active
+                span
+                    margin-top: -3px
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+    .subheader
+        .row
+            .col-md-3
+                width: 230px
+                margin-top: 15px
+                margin-left: 10px                
+                .logo_txt
+                    display: none
+            .col_2
+                display: none
+            .col_3 
+                margin-left: 140px          
+                .subheader_btn
+                    width: 150px
+                    height: 35px
+                    font-size: 10px
+                    margin-left: 0
+                    margin-top: 15px                                
+        .subheader_number_visible                    
+            display: block
+            font-size: 19px
+            margin: 0 auto
+            text-align: center
+        .subheader_call
+            display: none
+    .header 
+        padding-bottom: 50px
+        .header_h1
+        font-size: 35px
+    .reason
+        .reason_head
+            font-size: 27px
+        .row
+        .col_reason_left
+            width: 500px
+        .col_reason_right
+            width: 500px
+            margin-left: 0
+        .reason_wrapper
+            height: 250px
+            .reason_descr
+                width: 450px
+            .reason_span
+                text-align: center
+    .mobile
+        .title
+            font-size: 27px
+    .mobile_item
+        width: 450px
+        height: 440px
+        padding-top: 100px
+        .momile_item_subtitle
+            font-size: 20px
+    .choice
+        .choice_head
+            height: 550px
+            .title
+                font-size: 27px
+            .label_hidden
+                display: block
+                color: #ffffff
+                text-align: center
+                margin-top: 290px
+        img
+            display: block
+            width: 450px
+            top: 230px            
+        .choice_subhead
+            display: none
+
+    .condition .row .col_condition .condition_title
+        font-size: 19px
+    .world
+        height: 300px
+    .world .link
+        margin-top: 95px
+
+@media screen and (max-width: 575px)
+    header .menu .menu_link 
+        font-size: 14px
+    header .menu_active 
+        width: 70%
+    .subheader .row .col-md-3
+        width: 130px
+        margin-top: 5px
+        margin-left: 15px
+    .subheader .row .col_3 .subheader_btn
+        width: 110px
+        height: 22px
+        font-size: 10px
+        margin-top: 9px
+    .subheader .subheader_number_visible
+        font-size: 12px
+    .subheader .row .col_3
+        margin-left: 189px
+        transform: translateY(-30px)
+    .subheader
+        height: 60px
+    .header .header_h1
+        font-size: 30px
+        line-height: 36px
+    .header
+        padding-top: 113px
+    .header .header_h2
+        font-size: 20px
+        line-height: 24px
+        margin-top: 30px
+    .header .header_txt1, .header .header_txt2
+        display: none
+    .header .header_btn
+        width: 210px
+        height: 50px
+        margin-top: 72px
+    .header
+        min-height: 340px
+    .reason
+        padding-top: 22px
+    .reason .reason_head
+        font-size: 15px
+        margin-top: 15px
+    .reason .col_reason_left
+        width: 290px
+        margin: 0 auto
+    .reason .col_reason_right
+        width: 290px
+        margin: 0 auto
+    .reason .reason_wrapper .reason_descr
+        width: 100%
+    .reason .reason_wrapper .reason_round
+        width: 100px
+        height: 100px
+    .reason .reason_wrapper
+        height: 314px
+        &:nth-child(2)
+            height: 290px
+        &:nth-child(4)
+            height: 250px
+    .reason .col_reason_right
+        .reason_wrapper
+            &:nth-child(1)
+                height: 271px
+    .mobile
+        padding-top: 22px
+        padding-bottom: 43px
+    .mobile .title
+        font-size: 16px
+        margin-top: 15px
+    .mobile .subtitle
+        font-size: 14px
+        margin-top: 11px
+    .mobile_item
+        width: 290px
+        height: 254px
+        padding-top: 81px
+    .mobile_item .momile_item_subtitle
+        font-size: 18px
+    .choice .choice_head
+        padding-top: 25px
+        padding-bottom: 33px
+        height: 390px
+    .choice .choice_head .title
+        display: none
+    .choice img
+        width: 300px
+        top: 84px
+    .choice .choice_head .subtitle
+        display: none
+    .choice .choice_head .label_hidden
+        font-size: 17px
+        margin-top: 259px
+    
+    .condition
+        padding: 25px 15px
+    .condition .title
+        font-size: 16px
+        margin-top: 15px
+    .condition .row .col_condition
+        width: 100%
+    .condition .row_up
+        margin-top: 22px
+    .condition .row .col_condition .condition_titl
+        font-size: 16px
+    .condition .row .col_condition .condition_list li
+        font-size: 14px
+    .condition .row .col_condition .condition_descr
+        font-size: 14px
+    .condition .row .col_condition .condition_list
+        margin-bottom: 0
+    .condition .row .col_condition
+        &_right
+            margin-top: 31px
+    .condition .row_down
+        margin-top: 31px
+    
+    .world .title
+        font-size: 16px
+        margin-top: 15px
+    .world
+        padding-top: 25px
+    .world .subtitle
+        font-size: 14px
+        margin-top: 10px
+    .world .link
+        margin-top: 140px
+
+    .footer_link_large a
+        font-size: 14px
+    .footer_link_large
+        margin-top: 19px
+    .footer_link_small
+        width: 244px
+        height: 33px
+        flex-wrap: wrap
+    .footer_link_small a
+        &:nth-child(2)
+            display: block
+            width: 50%
+            text-align: right
+    .footer_link_russian
+        margin-top: 0    
+    .footer_application .application
+        height: 24px
+        width: 80px
+    .footer_application 
+        width: 260px
+    .footer
+        padding-bottom: 20px
+
+
+            
+
+            
+
+    
+
+
+        
+                    
+                    
+
+        
+
+
+ 
+
+
+
+    
